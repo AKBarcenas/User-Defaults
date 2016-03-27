@@ -9,9 +9,16 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
+    // The user's defaults.
     let defaults = NSUserDefaults.standardUserDefaults()
 
+    /*
+     * Function Name: viewDidLoad
+     * Parameters: None
+     * Purpose: This method loads the user's defaults and stores certain values into the user's defaults.
+     * Return Value: None
+     */
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
